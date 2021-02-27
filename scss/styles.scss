@@ -1,0 +1,41 @@
+@import "attribution";
+@import "variables";
+@import "main";
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: "Manrope", sans-serif;
+	font-weight: 500; /* Manrope */
+	background: var(--light-gray-blue);
+	color: var(--very-dark-gray-blue);
+}
+
+main {
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	height: 10%;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
